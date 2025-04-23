@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TO DOリスト</title>
+</head>
+<body>
+  <h1>TO DO リスト</h1>
+  <input type="text" id="task-input" placeholder="タスクを入力">
+  <label for="category">カテゴリ</label>
+
+<select id="category">
+  <option value="work">仕事</option>
+  <option value="study">勉強</option>
+  <option value="private">プライベート</option>
+</select>
+<label>
+  <input type="checkbox" id="is-pending">検討中
+</label>
+
+<button id="add-button">追加</button>
+
+<ul id="task-list"></ul>
+
+<script src="main.js"></script>
+</body>
+</html>
